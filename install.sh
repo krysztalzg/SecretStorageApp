@@ -1,5 +1,5 @@
 bundle install
 
-bundle exec arkane
+bundle exec arkana
 
 bundle exec pod install
