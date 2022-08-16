@@ -9,6 +9,9 @@ import Keys
 
 struct ContentView: View {
 
+    private let stringSecretKey1 = "superSecretKey5"
+    private let stringSecretKey2 = "anotherSecretKey6"
+
     private let arkanaKeys = ArkanaKeys.Global()
     private let podsKeys = SecretStorageAppKeys()
 
@@ -23,6 +26,12 @@ struct ContentView: View {
             .padding()
 
         Text(SecretStorageAppKeys().pODS_SECRET_KEY2)
+            .padding()
+
+        Text(stringSecretKey1)
+            .padding()
+
+        Text(stringSecretKey2)
             .padding()
     }
 }
