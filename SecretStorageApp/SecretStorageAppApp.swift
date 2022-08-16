@@ -2,8 +2,6 @@
 //  SecretStorageAppApp.swift
 //  SecretStorageApp
 //
-//  Created by Kamil Szczepanski on 16/08/2022.
-//
 
 import SwiftUI
 

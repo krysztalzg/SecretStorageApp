@@ -1,0 +1,27 @@
+PODS:
+  - ArkanaKeys (1.0.0):
+    - ArkanaKeysInterfaces (~> 1.0.0)
+  - ArkanaKeysInterfaces (1.0.0)
+  - Keys (1.0.1)
+
+DEPENDENCIES:
+  - ArkanaKeys (from `ArkanaKeys/ArkanaKeys`)
+  - ArkanaKeysInterfaces (from `ArkanaKeys/ArkanaKeysInterfaces`)
+  - Keys (from `Pods/CocoaPodsKeys`)
+
+EXTERNAL SOURCES:
+  ArkanaKeys:
+    :path: ArkanaKeys/ArkanaKeys
+  ArkanaKeysInterfaces:
+    :path: ArkanaKeys/ArkanaKeysInterfaces
+  Keys:
+    :path: Pods/CocoaPodsKeys
+
+SPEC CHECKSUMS:
+  ArkanaKeys: 12db54228739f04493a460f81523d9aff660e288
+  ArkanaKeysInterfaces: 5e9e823069ea2515c320dfac0958e0bd3fe34aeb
+  Keys: a576f4c9c1c641ca913a959a9c62ed3f215a8de9
+
+PODFILE CHECKSUM: 8575fa2af23eb57344d2a1e08ecd2cfa3c1a7562
+
+COCOAPODS: 1.11.3

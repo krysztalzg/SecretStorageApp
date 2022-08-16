@@ -2,14 +2,27 @@
 //  ContentView.swift
 //  SecretStorageApp
 //
-//  Created by Kamil Szczepanski on 16/08/2022.
-//
 
 import SwiftUI
+import ArkanaKeys
+import Keys
 
 struct ContentView: View {
+
+    private let arkanaKeys = ArkanaKeys.Global()
+    private let podsKeys = SecretStorageAppKeys()
+
     var body: some View {
-        Text("Hello, world!")
+        Text(arkanaKeys.aRKANA_SECRET_KEY1)
+            .padding()
+
+        Text(arkanaKeys.aRKANA_SECRET_KEY2)
+            .padding()
+
+        Text(SecretStorageAppKeys().pODS_SECRET_KEY1)
+            .padding()
+
+        Text(SecretStorageAppKeys().pODS_SECRET_KEY2)
             .padding()
     }
 }
